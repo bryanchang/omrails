@@ -1,7 +1,9 @@
-  source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'rails', '4.0.0.rc1'
 gem 'jquery-rails'
+gem 'turbolinks'
+
 
 group :production do
   gem 'pg'

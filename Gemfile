@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc1'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
+gem 'devise'
 
 
 group :production do

@@ -1,4 +1,6 @@
-
+<% if user_signed_in? %>
+  <h1>Your Logged IN!</h1>
+<% else %>
 <div class = "hero-unit">
 <h1>Welcome To Woo World!</h1>
 
@@ -8,3 +10,4 @@
     <%= link_to "Sign Up Now!",new_user_registration_path, class: "btn btn-success btn-large" %>
 </div>
 
+<% end %>

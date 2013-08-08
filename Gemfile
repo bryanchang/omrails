@@ -4,7 +4,7 @@ gem 'rails', '4.0.0.rc1'
 gem 'jquery-rails'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
-
+gem 'simple_form', '3.0.0.rc'
 
 group :production do
   gem 'pg'

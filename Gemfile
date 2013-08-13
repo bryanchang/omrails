@@ -6,6 +6,7 @@ gem 'bootstrap-sass', '~> 2.3.2.1'
 gem 'devise'
 gem 'simple_form', '3.0.0.rc'
 gem "paperclip", "~> 3.0"
+gem 'aws-sdk'
 
 group :production do
   gem 'pg'

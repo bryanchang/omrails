@@ -9,7 +9,6 @@
   <body>
 
     <%= render 'layouts/header' %>
-    <%= javascript_include_tag :defaults %>
 
    <div class="container">
       <% flash.each do  |name, msg| %>
@@ -17,8 +16,8 @@
       <% end %>
       <%= yield %>
 
-      <%= render 'layouts/footer' %>
     </div>
+    <%= render 'layouts/footer' %>
 
 
   </body>

@@ -9,6 +9,6 @@ class Pin < ActiveRecord::Base
   has_attached_file :image, styles: { medium: "320x240"}
   attr_accessible :image, :image_remote_url, :description
   def image_remote_url=(url_value)
-      self.image = URI.parse(url_value) unless url_value.blank?      super
+      self.image = URI.parse(url_value) unless url_value.blank?
     end
 end

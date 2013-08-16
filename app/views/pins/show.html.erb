@@ -6,6 +6,7 @@
         <%= @pin.description %>
       </p>
       <p>
+        <%= @pin.user.email %>
         <% if current_user == @pin.user %>
           <%= link_to 'Edit', edit_pin_path(@pin) %>
         <% end %>
